@@ -549,7 +549,7 @@ object Form1: TForm1
     Left = 0
     Top = 0
     Width = 640
-    Height = 368
+    Height = 360
     Align = alCustom
     AutoSize = True
     Center = True

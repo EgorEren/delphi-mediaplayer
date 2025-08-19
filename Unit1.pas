@@ -55,13 +55,14 @@ implementation
 
 procedure TForm1.FormCreate(Sender: TObject);
 var q:TList;
+
 begin
 
   lbl1.Caption:='Время:'+TimeToStr(now);
-  lst1.Items.Add('music\Travis-Scott-feat.-Drake-Sicko-Mode.wav');
-  lst1.Items.Add('music\Yung-Pinch-feat.-Lil-Skies-Nightmares.wav');
-  lst1.Items.Add('music\Drake-God_s-Plan.wav');
-  lst1.Items.Add('music\Juice WRLD - Lucid Dreams.wav');
+  lst1.Items.Add('Travis-Scott-feat.-Drake-Sicko-Mode.wav');
+  lst1.Items.Add('Yung-Pinch-feat.-Lil-Skies-Nightmares.wav');
+  lst1.Items.Add('Drake-God_s-Plan.wav');
+  lst1.Items.Add('Juice WRLD - Lucid Dreams.wav');
   i:=0;
   tmr1.Interval:=0;
   lbl2.Caption:='Sicko-Mode';
@@ -69,6 +70,8 @@ begin
   btn8.Enabled:=false;
   btn9.Enabled:=false;
   btn7.Enabled:=false;
+
+
 
 end;
 
